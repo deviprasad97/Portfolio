@@ -18,8 +18,11 @@ class Menu extends Component {
       <header id="home">
          <nav id="nav-wrap">
             <ul id="nav" className="nav">
-               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-               <li className="current"><a className="smoothscroll" href="#aboutme">About Me</a></li>
+               <h2 className="current"><a className="smoothscroll" href="#home">Home</a></h2>
+               <h2 className="current"><a className="smoothscroll" href="#aboutme">About Me</a></h2>
+               <h2 className="current"><a className="smoothscroll" href="#aboutme">Resume</a></h2>
+               <h2 className="current"><a className="smoothscroll" href="#aboutme">Projects</a></h2>
+               <h2 className="current"><a className="smoothscroll" href="#aboutme">Contact information</a></h2>
             </ul>
          </nav>
 
