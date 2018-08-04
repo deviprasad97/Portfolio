@@ -5,8 +5,13 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+  margin-top: 1%;
+  margin-bottom: 0%;
 }
-
+.App-reacttext{
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
 .App-header {
   position: relative;
    height: 800px;
@@ -18,9 +23,17 @@
    text-align: center;
    overflow: hidden;
 }
-
-.App-title {
+.App-desc{
   font-size: 1.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:olivedrab;
+  width: 165%;
+}
+.App-title {
+  font-size: 6.5em;
+  font-family: 'Courier New', Courier, monospace;
+  color: brown;
+  margin-bottom: 0%;
 }
 
 .App-intro {
